@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     92346,       2071]
-NotebookOptionsPosition[     87971,       1998]
-NotebookOutlinePosition[     88326,       2014]
-CellTagsIndexPosition[     88283,       2011]
+NotebookDataLength[     92377,       2071]
+NotebookOptionsPosition[     88002,       1998]
+NotebookOutlinePosition[     88357,       2014]
+CellTagsIndexPosition[     88314,       2011]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1899,14 +1899,14 @@ Cell[BoxData[{
    3.763710088969285*^9, 3.7637100907972803`*^9}, {3.763721367232876*^9, 
    3.7637214132160807`*^9}, {3.763797199195922*^9, 3.763797200043386*^9}},
  CellLabel->
-  "In[781]:=",ExpressionUUID->"63813fda-f0db-43e3-a47c-956078fa989c"],
+  "In[785]:=",ExpressionUUID->"63813fda-f0db-43e3-a47c-956078fa989c"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`beta0$$ = 0.074, $CellContext`gamma$$ = 
-    0.064, $CellContext`initialI$$ = 0.2, $CellContext`mu$$ = 
-    0., $CellContext`T$$ = 30., Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`beta0$$ = 0.2, $CellContext`gamma$$ = 
+    Rational[1, 15], $CellContext`initialI$$ = 0.05, $CellContext`mu$$ = 
+    0, $CellContext`T$$ = 10, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -1916,20 +1916,20 @@ Cell[BoxData[
        Hold[$CellContext`initialI$$], 0.05}, 0, 1}, {{
        Hold[$CellContext`T$$], 10}, 0, 30}, {{
        Hold[$CellContext`beta0$$], 0.2}, 0, 1}}, Typeset`size$$ = {
-    689., {182., 186.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`gamma$55916$$ = 
-    0, $CellContext`mu$55921$$ = 0, $CellContext`initialI$55922$$ = 
-    0, $CellContext`T$55923$$ = 0, $CellContext`beta0$55924$$ = 0}, 
+    689., {184., 189.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`gamma$67203$$ = 
+    0, $CellContext`mu$67204$$ = 0, $CellContext`initialI$67205$$ = 
+    0, $CellContext`T$67206$$ = 0, $CellContext`beta0$67207$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`beta0$$ = 0.2, $CellContext`gamma$$ = 
         Rational[1, 15], $CellContext`initialI$$ = 0.05, $CellContext`mu$$ = 
         0, $CellContext`T$$ = 10}, "ControllerVariables" :> {
-        Hold[$CellContext`gamma$$, $CellContext`gamma$55916$$, 0], 
-        Hold[$CellContext`mu$$, $CellContext`mu$55921$$, 0], 
-        Hold[$CellContext`initialI$$, $CellContext`initialI$55922$$, 0], 
-        Hold[$CellContext`T$$, $CellContext`T$55923$$, 0], 
-        Hold[$CellContext`beta0$$, $CellContext`beta0$55924$$, 0]}, 
+        Hold[$CellContext`gamma$$, $CellContext`gamma$67203$$, 0], 
+        Hold[$CellContext`mu$$, $CellContext`mu$67204$$, 0], 
+        Hold[$CellContext`initialI$$, $CellContext`initialI$67205$$, 0], 
+        Hold[$CellContext`T$$, $CellContext`T$67206$$, 0], 
+        Hold[$CellContext`beta0$$, $CellContext`beta0$67207$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1953,7 +1953,7 @@ $CellContext`recovered}, {$CellContext`t, 0, 50}]]], {$CellContext`t, 0, 50},
          1}, {{$CellContext`initialI$$, 0.05}, 0, 1}, {{$CellContext`T$$, 10},
           0, 30}, {{$CellContext`beta0$$, 0.2}, 0, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{734., {283., 289.}},
+     ImageSizeCache->{734., {285., 291.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1970,9 +1970,9 @@ $CellContext`recovered}, {$CellContext`t, 0, 50}]]], {$CellContext`t, 0, 50},
    3.763705224752692*^9, {3.7637057117597914`*^9, 3.763705733443224*^9}, 
    3.7637060674032307`*^9, {3.7637070460564146`*^9, 3.7637070756609225`*^9}, 
    3.7637071203016253`*^9, 3.763721241017014*^9, {3.763721404181615*^9, 
-   3.7637214142318773`*^9}, 3.76379720199304*^9},
+   3.7637214142318773`*^9}, 3.76379720199304*^9, 3.7637975989085407`*^9},
  CellLabel->
-  "Out[784]=",ExpressionUUID->"57734dcf-95b1-4c83-9989-73fb592e8ef1"]
+  "Out[788]=",ExpressionUUID->"cf242fe3-34c2-4132-a287-5b1d9b062a7c"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -2069,10 +2069,10 @@ Cell[72409, 1626, 1339, 24, 104, "Text",ExpressionUUID->"4cdc5bea-3219-4492-a9be
 Cell[73751, 1652, 4180, 109, 353, "Text",ExpressionUUID->"2316fa7b-53a2-49c8-8c58-9bcfe37ef630"],
 Cell[CellGroupData[{
 Cell[77956, 1765, 5244, 136, 262, "Input",ExpressionUUID->"63813fda-f0db-43e3-a47c-956078fa989c"],
-Cell[83203, 1903, 3799, 71, 591, "Output",ExpressionUUID->"57734dcf-95b1-4c83-9989-73fb592e8ef1"]
+Cell[83203, 1903, 3830, 71, 595, "Output",ExpressionUUID->"cf242fe3-34c2-4132-a287-5b1d9b062a7c"]
 }, Open  ]],
-Cell[87017, 1977, 154, 3, 30, "Input",ExpressionUUID->"dddf72b3-dcf9-4ce9-8a02-6d9ca8e0897e"],
-Cell[87174, 1982, 793, 14, 104, "Text",ExpressionUUID->"5849038e-f79d-4328-852d-944ceefe96fb"]
+Cell[87048, 1977, 154, 3, 30, "Input",ExpressionUUID->"dddf72b3-dcf9-4ce9-8a02-6d9ca8e0897e"],
+Cell[87205, 1982, 793, 14, 104, "Text",ExpressionUUID->"5849038e-f79d-4328-852d-944ceefe96fb"]
 }
 ]
 *)
